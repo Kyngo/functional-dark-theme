@@ -1,0 +1,29 @@
+{
+  "name": "functional-dark",
+  "displayName": "Functional dark",
+  "description": "A dark theme with few colors to distract you",
+  "version": "0.0.1",
+  "author": {
+    "name": "Arnau Martín",
+    "url": "https://arnaumart.in/"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Kyngo/functional-dark-theme"
+  },
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Functional Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme.json"
+      }
+    ]
+  }
+}
